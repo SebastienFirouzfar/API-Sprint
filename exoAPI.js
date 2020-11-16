@@ -12,6 +12,6 @@ document.querySelector("#buttonUser").addEventListener("click", function () {
                console.log(data)
             });
         })
-        //afficher les données tel que le nom, prenom et email
+        //afficher les données tel que le nom, prenom et email dans l'html
         document.body.appendChild(paragraphe)
 })
