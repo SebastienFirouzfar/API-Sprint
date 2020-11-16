@@ -13,6 +13,6 @@ document.querySelector("#buttonUser").addEventListener("click", function () {
             });
         })
         //afficher les données tel que le nom, prenom et email dans l'html
-        //fin exo
+        //fin exo api
         document.body.appendChild(paragraphe)
 })
