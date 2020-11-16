@@ -13,6 +13,6 @@ document.querySelector("#buttonUser").addEventListener("click", function () {
             });
         })
         //afficher les données tel que le nom, prenom et email dans l'html
-        //fin 
+        //fin exercice
         document.body.appendChild(paragraphe)
 })
