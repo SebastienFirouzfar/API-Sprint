@@ -4,7 +4,7 @@ document.querySelector("#buttonUser").addEventListener("click", function () {
         .then(response => response.json())
         .then((data) => {
             data.forEach(element => {
-                document.getElementById("buttonUser").insertAdjacentHTML("beforebegin",'<br><br><p>"'+element.name, element.+'"</p>')
+                document.getElementById("buttonUser").insertAdjacentHTML("beforebegin",'<br><br><p>"'+element.name+'"</p>')
                 console.log(data)
             });
         })
