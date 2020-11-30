@@ -6,13 +6,8 @@ document.querySelector("#buttonUser").addEventListener("click", function () {
         .then((data) => {
             data.forEach(element => {
               // buttonAPi.insertAdjacentHTML("beforebegin",'<br><br><p>"'+element.name+'"</p>' )
-               paragraphe.insertAdjacentHTML("beforebegin",' <p>"'+element.name +'"</p> ' )
-               paragraphe.insertAdjacentHTML("beforebegin",' <p>"'+element.username +'"</p> ' )
-               paragraphe.insertAdjacentHTML("beforebegin",' <p>"'+element.email +'"</p> ' )
-               paragraphe.insertAdjacentHTML("beforebegin",'<br> <br>' )
-               //paragraphe.append(element.name) 
-               //paragraphe.append(element.username )
-               //paragraphe.append(element.email )
+               paragraphe.insertAdjacentHTML("beforebegin",' <p>"'+element.name+ "  " +element.username + 
+               "  " +element.email +'"</p> ' )
                paragraphe.setAttribute('style', 'margin : 10px ; padding : 10px;')
                console.log(data)
             });
